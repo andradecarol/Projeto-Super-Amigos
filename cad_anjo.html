@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Super amigos!</title>
+   
+   
+</head>
+<body>
+    <div id="interface">
+        <div id="divslider">
+
+        </div>
+        <header id="cabecalho">
+            
+            <a href="index.html"><img id="logo" src="img/logo3.png"></a>
+            <nav id="menu">
+                <h1>Menu Principal</h1>
+                    <ul>
+                        <li id="botao-projeto"><a href="informacoes.html">Sobre as famílias</a></li>
+                        <li id="botao-cad_familia"><a href="cad_familia.html">Cadastro família</a></li>
+                        <li id="botao-cad_anjo"><a href="cad_anjo.html">Cadastro anjo</a></li>
+                        <li id="botao-familias"><a href="familias.html">Famílias cadastradas</a></li>
+                    </ul>   
+            </nav>
+        </header>
+        <h1>CADASTRO PARA ANJO</h1>
+
+        <form method="POST" id="fContato" >
+            <fieldset id="usuario">
+
+                <legend>Dados do Cadastrante</legend>     <br>
+                <legend>Informações Pessoais</legend>      <br>       
+                <p>Nome: <input type="text" name="tNome" id="cNome" size="50" maxlength="80" placeholder="Nome Completo"></p>
+                <p>Nome da mãe: <input type="text" name="tNomeMae" id="cNomeMae" size="50" maxlength="80" placeholder="Nome Completo da Mãe"></p>
+                <p>CPF: <input type="text" name="tNumCpf" id="cNumCpf" size="11" maxlength="11" placeholder="Somente números"></p>
+                <p>RG: <input type="text" name="tRg" id="cRg" size="5" maxlength="15" placeholder="Sem . , -"></p>
+                <p>E-mail: <input type="email" name="tMail" id="cMail" size="20" maxlength="40" placeholder="exemplo@exemplo.com.br"></p>
+                <p>Telefone:</p>                
+                    <p>Sexo:</p>
+                    <input type="radio" name=tSexo id=cFem> Feminino<br>
+                    <input type="radio" name=tSexo id=cMasc> Masculino<br>
+                    <input type="radio" name=tSexo id=cNaobi> Não binário               
+                <p>Data de Nascimento: <input type="date" name="tNasc" id="cNasc"> </p>   <br>          
+                       
+
+            
+                <legend> Formas de auxílio</legend><br>
+                <p>Você pode escolher uma família específica para ajudar ou pode ajudar aleatoriamente.</p>
+                <p>Caso queira escolher uma família, clique <a href="familias.html" target="_blank">aqui</a> para consultar as famílias cadastradas e 
+                    informe abaixo o código da família escolhida.</p>
+                <p>Código da famíla: <input type="text" name="CodFam" size="06"  maxlength="06"></p>
+                <p>Caso queira ajudar aleatoriamente, somente escolha o valor e em seguida gere o boleto.</p><br>
+                                           
+
+                <legend>Boleto</legend><br>
+                <p><label for="cValor"> Escolha abaixo o valor com que deseja contribuir. Caso seja um valor acima de R$100,00, 
+                    gentileza clicar na opção "Outro" e preencher o campo. </label><br><br>
+                    <select name="tValor" id="cValor">
+                        <option>R$ 10,00</option>
+                        <option>R$ 15,00</option>
+                        <option>R$ 25,00</option>
+                        <option>R$ 40,00</option>
+                        <option>R$ 50,00</option>
+                        <option>R$ 70,00</option>
+                        <option>R$ 100,00</option>
+                        <option>Outro</option>
+                    </select>
+                    <input type="text" name=tValMaior id="cValMaior" size="10" placeholder="Mais que 100,00">
+                <br>
+                <br>
+                <p id="envio"><input type="submit" name="enviar" size="10" value="Gerar Boleto >"></p>
+
+            </fieldset>
+        </form>
+
+        <div id="rodape">
+            <footer id="rodape">
+                <p id="texto-rodape">Copyright &copy; 2020. Carolina Andrade</p>
+            </footer>
+        </div>
+    </div>
+    
+</body> 
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Super amigos!</title>
+   
+   
+</head>
+<body>
+    <div id="interface">
+        <div id="divslider">
+
+        </div>
+        <header id="cabecalho">
+            
+            <a href="index.html"><img id="logo" src="img/logo3.png"></a>
+            <nav id="menu">
+                <h1>Menu Principal</h1>
+                    <ul>
+                        <li id="botao-projeto"><a href="informacoes.html">Sobre as famílias</a></li>
+                        <li id="botao-cad_familia"><a href="cad_familia.html">Cadastro família</a></li>
+                        <li id="botao-cad_anjo"><a href="cad_anjo.html">Cadastro anjo</a></li>
+                        <li id="botao-familias"><a href="familias.html">Famílias cadastradas</a></li>
+                    </ul>   
+            </nav>
+        </header>
+        <h1>FAMÍLIAS CADASTRADAS</h1>
+        <h3 class="titulo3">Escolha a família e clique no código dela para ver suas informações.</h3>
+        <h3 class="titulo3">Você também pode ver sobre a família escolhida pesquisando diretamente pelo código <a class="linkInterno" 
+            href="informacoes.html">aqui.</a></h3><br>
+        <p>Escolha uma família para ajudar utilizando um ou mais filtros:</p>
+
+        <form method="POST" id="fContato"></form>
+            <fieldset id="familias">
+
+                <legend>Encontre uma família</legend><br>
+                <p>Nome do cadastrante: <input type="text" name="NomePesq" id="cNomePesq"></p>
+                <p>Estado da família: <input type="text" name="EstPesq" id="cEstPesq"></p>
+                <p>Cidade da família: <input type="text" name="CityPesq" id="cCityPesq"></p>
+                <p><label for="cRendaPesq"> Renda máxima da família: </label><br><br>
+                    <select name="RendaPesq" id="cRendaPesq">
+                        <option>Menos de R$100,00</option>
+                        <option>Até R$ 100,00</option>
+                        <option>De 101,00 até R$ 300,00</option>
+                        <option>De 301,00 até R$ 500,00</option>
+                        <option>De 501 até R$ 900,00</option>
+                        <option>De 901,00 até R$ 1.045,00</option>
+                        <option>Qualquer valor</option>                        
+                    </select>         <br><br>
+
+                <p id="pesquisa"><input type="submit" name="tPesquisa" id="cPesquisa" value="Pesquisar" ></p>                                 
+               
+            </fieldset>
+            <h3>Ou</h3>
+            <fieldset id="familias2">
+                <legend>Encontre uma família</legend><br>
+                <p>Mostrar todas as famílias</p><br><br>
+                <p id="pesquisaTodos"><input type="submit" name="tPesquisaTodos" id="cPesquisaTodos" value="Pesquisar" ></p>   
+
+            </fieldset>
+        </form>
+
+        <div id="rodape">
+            <footer id="rodape">
+                <p id="texto-rodape">Copyright &copy; 2020. Carolina Andrade</p>
+            </footer>
+        </div>
+    </div>
+    
+</body> 
+</html>
