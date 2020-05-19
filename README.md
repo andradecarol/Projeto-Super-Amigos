@@ -6,6 +6,9 @@
  - Cadastro para anjos;
  - Cadastro para famílias;
  - Famílias cadastradas;
+ 
+ ## Link de demonstração:
+ https://candrade-ti.github.io/Projeto-Super-Amigos/
 
  O modelo de site é sem responsividaden e sem uso de Bootstrap.
  Projeto criado somente com uso de HTML5 e CSS3.
