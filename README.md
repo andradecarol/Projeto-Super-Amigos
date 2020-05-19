@@ -5,7 +5,7 @@
  - Página inicial;
  - Cadastro para anjos;
  - Cadastro para famílias;
- - Famílias cadastradas;
+ - Famílias cadastradas.
  
  ## Link de demonstração:
  https://candrade-ti.github.io/Projeto-Super-Amigos/
